@@ -26,7 +26,7 @@
 };
 
 &spi1 {
-    cs-gpios = <&gpio0 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+    cs-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     status = "okay";
     lcd0: lcd@0 {
         compatible ="jdi,lpm009m360a";
@@ -37,7 +37,7 @@
         extcomin_gpios = <&gpio0 28 GPIO_ACTIVE_HIGH>;
         width = <144>;
         height = <72>;
-        color mode = [02];
+        color_mode = [02];
         reverse = <1>;
         rotation = <1>;
     };
