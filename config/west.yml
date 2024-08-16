@@ -1,26 +1,16 @@
-
-
-
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: megamind
-      url-base: https://github.com/megamind4089
-    - name: nicell
-      url-base: https://github.com/nicell
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: careyk007
-      url-base: https://github.com/careyk007
-    - name: innovaker
-      url-base: https://github.com/innovaker
-    - name: okke-formsma
-      url-base: https://github.com/okke-formsma
+      url-base: https://github.com/tokyo2006
+    - name: inorichi
+      url-base: https://github.com/inorichi
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: lpm009m360a
       import: app/west.yml
+    - name: zmk-pmw3610-driver
+      remote: inorichi
+      revision: main
   self:
     path: config
