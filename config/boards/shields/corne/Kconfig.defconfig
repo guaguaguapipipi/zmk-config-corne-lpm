@@ -21,8 +21,8 @@ if ZMK_DISPLAY
 # config SSD1306
 #     default y
 
-config LPM009M360A
-    default y
+# config LPM009M360A
+#     default y
 
 endif # ZMK_DISPLAY
 
